@@ -4,7 +4,7 @@ When victim runs `payload.exe`, a black cmd window console appears and stays ope
 We can build the binary as a `GUI binary` so that the window doesn't appear with the following flag:
 
 ```
-GOOS=windows GOARCH=amd64 go build -ldflags="-H windowsgui 
+GOOS=windows GOARCH=amd64 go build -ldflags="-H windowsgui" 
 ```
 
 Or even better, we make a syscall to Windows API directly:
