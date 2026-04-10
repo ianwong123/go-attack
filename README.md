@@ -1,6 +1,7 @@
 # go-attack
 
-A personal security research lab where I simulate offensive security techniques using Golang
+A personal security research lab where I simulate offensive security techniques, drop them into isolated VMs (VirtualBox)
+, and conduct end-to-end forensics (memory, disk, host artefacts, network, etc,.)
 
 ## Disclaimer
 
